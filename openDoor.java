@@ -42,8 +42,8 @@ public class openDoor {
                 res.clear();
                 path.add(new Node(x, y));
                 res.addAll(path);
+                path.remove(path.size() - 1);
             }
-            path.remove(path.size() - 1);
             return;
         }
 
