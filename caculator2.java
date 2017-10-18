@@ -64,9 +64,9 @@ public class caculator2 {
             num = 0;
             sign = c;
         }
-        return res;
+        return res + pre;
     }
 
-    // Add ^
+    // Add ^ check the follow up
 
 }
